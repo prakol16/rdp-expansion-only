@@ -9,3 +9,4 @@ Usage:
          [ 4.   , -1.   ],
          [-0.1  ,  0.025]]
          
+Notice that usually the new points will not be a subset of the old points, unlike in the original RDP algorithm. However, all the old points will lie on the boundary or interior of the new polygon, and the new polygon will generally be simpler.
