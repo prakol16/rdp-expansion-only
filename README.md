@@ -19,6 +19,6 @@ A crescent whose boundary was originally made of two circles, one centered at th
 
 With `epsilon=0.05`:
 
-![crescent](https://raw.githubusercontent.com/prakol16/rdp-expansion-only/master/examples/expansion1.png)
+![crescent](https://raw.githubusercontent.com/prakol16/rdp-expansion-only/master/examples/expansion2.png)
 
 Notice how the polygon expands to fit the crescent.
