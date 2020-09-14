@@ -15,10 +15,10 @@ Notice that usually the new points will not be a subset of the old points, unlik
 
 A crescent whose boundary was originally made of two circles, one centered at the origin with radius 1 and the other centered at `x=0.75` with radius `r=1.25`, when simplified with `epsilon=0.1`, looks like:
 
-!(https://raw.githubusercontent.com/prakol16/rdp-expansion-only/master/examples/expansion1.png)
+![crescent](https://raw.githubusercontent.com/prakol16/rdp-expansion-only/master/examples/expansion1.png)
 
 With `epsilon=0.05`:
 
-!(https://raw.githubusercontent.com/prakol16/rdp-expansion-only/master/examples/expansion1.png)
+![crescent](https://raw.githubusercontent.com/prakol16/rdp-expansion-only/master/examples/expansion1.png)
 
 Notice how the polygon expands to fit the crescent.
