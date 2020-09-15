@@ -63,7 +63,8 @@ def glue(seg1, seg2):
     # Recall that we can't make a segment go in a backwards direction
     # So we must have t >= 0 and s <= 1. However, since we solved for [t, -s]
     # we want that t_s[0] >= 0 and t_s[1] >= -1. If this fails, set t_s to None
-    if (t_s[0] < 0) or (t_s[1] < -1):
+    # Also, don't allow segments to more than double
+    if not ((0 <= t_s[0] <= 2) and (-1 <= t_s[1] <= 1)):
       t_s = None
   except np.linalg.LinAlgError:
     # Singular matrix i.e. parallel
